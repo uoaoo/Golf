@@ -1,0 +1,16 @@
+PODS:
+  - ColorMatchTabs (3.2)
+
+DEPENDENCIES:
+  - ColorMatchTabs
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - ColorMatchTabs
+
+SPEC CHECKSUMS:
+  ColorMatchTabs: b0b9a1e54348289f40e92947ebe75f90fe5eee21
+
+PODFILE CHECKSUM: 8aa7da4188fea94fb33718ed3d56ff1a9a024fbe
+
+COCOAPODS: 1.6.1

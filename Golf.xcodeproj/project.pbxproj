@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7941E238EAD84253D74C2297 /* Pods_Golf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 227F25A3FE69FA8F102DE3CC /* Pods_Golf.framework */; };
+		903535002226E3CA00469D41 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 903534FF2226E3CA00469D41 /* AppDelegate.swift */; };
+		9035350A2226E3CB00469D41 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 903535082226E3CB00469D41 /* LaunchScreen.storyboard */; };
+		903535192226E4F500469D41 /* UIFont+Zeplin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 903535122226E4F500469D41 /* UIFont+Zeplin.swift */; };
+		9035351A2226E4F500469D41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 903535132226E4F500469D41 /* Assets.xcassets */; };
+		9035351B2226E4F500469D41 /* GothamProRegular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 903535152226E4F500469D41 /* GothamProRegular.ttf */; };
+		9035351C2226E4F500469D41 /* GothamProBlack.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 903535162226E4F500469D41 /* GothamProBlack.ttf */; };
+		9035351D2226E4F500469D41 /* GothamProMedium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 903535172226E4F500469D41 /* GothamProMedium.ttf */; };
+		9035351E2226E4F500469D41 /* GothamProBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 903535182226E4F500469D41 /* GothamProBold.ttf */; };
+		903535202226E54100469D41 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9035351F2226E54100469D41 /* HomeViewController.swift */; };
+		903535252226E5D900469D41 /* StubContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 903535242226E5D900469D41 /* StubContentViewController.swift */; };
+		903535282226E5E100469D41 /* ExampleTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 903535262226E5E100469D41 /* ExampleTableViewCell.xib */; };
+		903535292226E5E100469D41 /* ExampleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 903535272226E5E100469D41 /* ExampleTableViewCell.swift */; };
+		9035352B2226E5E900469D41 /* TabItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9035352A2226E5E900469D41 /* TabItem.swift */; };
+		9035352E2226E5F100469D41 /* ControllersProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9035352C2226E5F100469D41 /* ControllersProvider.swift */; };
+		9035352F2226E5F100469D41 /* TabSwitcherItemsProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9035352D2226E5F100469D41 /* TabSwitcherItemsProvider.swift */; };
+		903535312226E8C800469D41 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 903535302226E8C800469D41 /* Main.storyboard */; };
+		903535332226EE2700469D41 /* ProfilesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 903535322226EE2700469D41 /* ProfilesViewController.swift */; };
+		90EEBDEB2227240C003866BC /* ExamplePopoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90EEBDEA2227240C003866BC /* ExamplePopoverViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		00A6725D60BB14B1DEC9474E /* Pods-Golf.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Golf.release.xcconfig"; path = "Target Support Files/Pods-Golf/Pods-Golf.release.xcconfig"; sourceTree = "<group>"; };
+		227F25A3FE69FA8F102DE3CC /* Pods_Golf.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Golf.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		903534FC2226E3CA00469D41 /* Golf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Golf.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		903534FF2226E3CA00469D41 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		903535092226E3CB00469D41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9035350B2226E3CB00469D41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		903535122226E4F500469D41 /* UIFont+Zeplin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIFont+Zeplin.swift"; sourceTree = "<group>"; };
+		903535132226E4F500469D41 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		903535152226E4F500469D41 /* GothamProRegular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GothamProRegular.ttf; sourceTree = "<group>"; };
+		903535162226E4F500469D41 /* GothamProBlack.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GothamProBlack.ttf; sourceTree = "<group>"; };
+		903535172226E4F500469D41 /* GothamProMedium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GothamProMedium.ttf; sourceTree = "<group>"; };
+		903535182226E4F500469D41 /* GothamProBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GothamProBold.ttf; sourceTree = "<group>"; };
+		9035351F2226E54100469D41 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		903535242226E5D900469D41 /* StubContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StubContentViewController.swift; sourceTree = "<group>"; };
+		903535262226E5E100469D41 /* ExampleTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ExampleTableViewCell.xib; sourceTree = "<group>"; };
+		903535272226E5E100469D41 /* ExampleTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleTableViewCell.swift; sourceTree = "<group>"; };
+		9035352A2226E5E900469D41 /* TabItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabItem.swift; sourceTree = "<group>"; };
+		9035352C2226E5F100469D41 /* ControllersProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ControllersProvider.swift; sourceTree = "<group>"; };
+		9035352D2226E5F100469D41 /* TabSwitcherItemsProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabSwitcherItemsProvider.swift; sourceTree = "<group>"; };
+		903535302226E8C800469D41 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		903535322226EE2700469D41 /* ProfilesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilesViewController.swift; sourceTree = "<group>"; };
+		90EEBDEA2227240C003866BC /* ExamplePopoverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ExamplePopoverViewController.swift; path = ../../../../../github/ColorMatchTabs/Example/Example/Classes/ViewControllers/ExamplePopoverViewController.swift; sourceTree = "<group>"; };
+		E914FA3C2F57F5B1A505C4E7 /* Pods-Golf.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Golf.debug.xcconfig"; path = "Target Support Files/Pods-Golf/Pods-Golf.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		903534F92226E3CA00469D41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7941E238EAD84253D74C2297 /* Pods_Golf.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		139C91FAD4A486591F333EE7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				227F25A3FE69FA8F102DE3CC /* Pods_Golf.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		903534F32226E3CA00469D41 = {
+			isa = PBXGroup;
+			children = (
+				903534FE2226E3CA00469D41 /* Golf */,
+				903534FD2226E3CA00469D41 /* Products */,
+				F2D74A64072DE1DE7F6705BC /* Pods */,
+				139C91FAD4A486591F333EE7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		903534FD2226E3CA00469D41 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				903534FC2226E3CA00469D41 /* Golf.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		903534FE2226E3CA00469D41 /* Golf */ = {
+			isa = PBXGroup;
+			children = (
+				903535342226F22700469D41 /* Classes */,
+				9035351F2226E54100469D41 /* HomeViewController.swift */,
+				903534FF2226E3CA00469D41 /* AppDelegate.swift */,
+				903535302226E8C800469D41 /* Main.storyboard */,
+				903535082226E3CB00469D41 /* LaunchScreen.storyboard */,
+				9035350B2226E3CB00469D41 /* Info.plist */,
+				903535112226E4F500469D41 /* Resources */,
+			);
+			path = Golf;
+			sourceTree = "<group>";
+		};
+		903535112226E4F500469D41 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				903535122226E4F500469D41 /* UIFont+Zeplin.swift */,
+				903535132226E4F500469D41 /* Assets.xcassets */,
+				903535142226E4F500469D41 /* Font */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		903535142226E4F500469D41 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				903535152226E4F500469D41 /* GothamProRegular.ttf */,
+				903535162226E4F500469D41 /* GothamProBlack.ttf */,
+				903535172226E4F500469D41 /* GothamProMedium.ttf */,
+				903535182226E4F500469D41 /* GothamProBold.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		903535342226F22700469D41 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				903535372226FC8900469D41 /* Friends */,
+				903535352226F22700469D41 /* Profile */,
+				903535362226F22700469D41 /* ColorMatchTabs */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		903535352226F22700469D41 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				903535322226EE2700469D41 /* ProfilesViewController.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		903535362226F22700469D41 /* ColorMatchTabs */ = {
+			isa = PBXGroup;
+			children = (
+				90EEBDEA2227240C003866BC /* ExamplePopoverViewController.swift */,
+				9035352C2226E5F100469D41 /* ControllersProvider.swift */,
+				9035352D2226E5F100469D41 /* TabSwitcherItemsProvider.swift */,
+				9035352A2226E5E900469D41 /* TabItem.swift */,
+				903535272226E5E100469D41 /* ExampleTableViewCell.swift */,
+				903535262226E5E100469D41 /* ExampleTableViewCell.xib */,
+				903535242226E5D900469D41 /* StubContentViewController.swift */,
+			);
+			path = ColorMatchTabs;
+			sourceTree = "<group>";
+		};
+		903535372226FC8900469D41 /* Friends */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Friends;
+			sourceTree = "<group>";
+		};
+		F2D74A64072DE1DE7F6705BC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E914FA3C2F57F5B1A505C4E7 /* Pods-Golf.debug.xcconfig */,
+				00A6725D60BB14B1DEC9474E /* Pods-Golf.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		903534FB2226E3CA00469D41 /* Golf */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9035350E2226E3CB00469D41 /* Build configuration list for PBXNativeTarget "Golf" */;
+			buildPhases = (
+				C2C1434B6DB8F63372BA41B0 /* [CP] Check Pods Manifest.lock */,
+				903534F82226E3CA00469D41 /* Sources */,
+				903534F92226E3CA00469D41 /* Frameworks */,
+				903534FA2226E3CA00469D41 /* Resources */,
+				E5F451CECE23BE29767A7EDC /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Golf;
+			productName = Golf;
+			productReference = 903534FC2226E3CA00469D41 /* Golf.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		903534F42226E3CA00469D41 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "陈钢强";
+				TargetAttributes = {
+					903534FB2226E3CA00469D41 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 903534F72226E3CA00469D41 /* Build configuration list for PBXProject "Golf" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 903534F32226E3CA00469D41;
+			productRefGroup = 903534FD2226E3CA00469D41 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				903534FB2226E3CA00469D41 /* Golf */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		903534FA2226E3CA00469D41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				903535282226E5E100469D41 /* ExampleTableViewCell.xib in Resources */,
+				9035351C2226E4F500469D41 /* GothamProBlack.ttf in Resources */,
+				9035351B2226E4F500469D41 /* GothamProRegular.ttf in Resources */,
+				9035351D2226E4F500469D41 /* GothamProMedium.ttf in Resources */,
+				9035350A2226E3CB00469D41 /* LaunchScreen.storyboard in Resources */,
+				9035351A2226E4F500469D41 /* Assets.xcassets in Resources */,
+				903535312226E8C800469D41 /* Main.storyboard in Resources */,
+				9035351E2226E4F500469D41 /* GothamProBold.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C2C1434B6DB8F63372BA41B0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Golf-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E5F451CECE23BE29767A7EDC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Golf/Pods-Golf-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ColorMatchTabs/ColorMatchTabs.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ColorMatchTabs.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Golf/Pods-Golf-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		903534F82226E3CA00469D41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9035352F2226E5F100469D41 /* TabSwitcherItemsProvider.swift in Sources */,
+				903535002226E3CA00469D41 /* AppDelegate.swift in Sources */,
+				903535332226EE2700469D41 /* ProfilesViewController.swift in Sources */,
+				903535192226E4F500469D41 /* UIFont+Zeplin.swift in Sources */,
+				9035352E2226E5F100469D41 /* ControllersProvider.swift in Sources */,
+				903535292226E5E100469D41 /* ExampleTableViewCell.swift in Sources */,
+				903535252226E5D900469D41 /* StubContentViewController.swift in Sources */,
+				90EEBDEB2227240C003866BC /* ExamplePopoverViewController.swift in Sources */,
+				9035352B2226E5E900469D41 /* TabItem.swift in Sources */,
+				903535202226E54100469D41 /* HomeViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		903535082226E3CB00469D41 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				903535092226E3CB00469D41 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9035350C2226E3CB00469D41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9035350D2226E3CB00469D41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9035350F2226E3CB00469D41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E914FA3C2F57F5B1A505C4E7 /* Pods-Golf.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Golf/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yygy.Golf;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		903535102226E3CB00469D41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00A6725D60BB14B1DEC9474E /* Pods-Golf.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Golf/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yygy.Golf;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		903534F72226E3CA00469D41 /* Build configuration list for PBXProject "Golf" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9035350C2226E3CB00469D41 /* Debug */,
+				9035350D2226E3CB00469D41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9035350E2226E3CB00469D41 /* Build configuration list for PBXNativeTarget "Golf" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9035350F2226E3CB00469D41 /* Debug */,
+				903535102226E3CB00469D41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 903534F42226E3CA00469D41 /* Project object */;
+}
