@@ -25,7 +25,7 @@
 		9035352F2226E5F100469D41 /* TabSwitcherItemsProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9035352D2226E5F100469D41 /* TabSwitcherItemsProvider.swift */; };
 		903535312226E8C800469D41 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 903535302226E8C800469D41 /* Main.storyboard */; };
 		903535332226EE2700469D41 /* ProfilesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 903535322226EE2700469D41 /* ProfilesViewController.swift */; };
-		90EEBDEB2227240C003866BC /* ExamplePopoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90EEBDEA2227240C003866BC /* ExamplePopoverViewController.swift */; };
+		90EEBDED22272529003866BC /* ExamplePopoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90EEBDEC22272529003866BC /* ExamplePopoverViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,7 +50,7 @@
 		9035352D2226E5F100469D41 /* TabSwitcherItemsProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabSwitcherItemsProvider.swift; sourceTree = "<group>"; };
 		903535302226E8C800469D41 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		903535322226EE2700469D41 /* ProfilesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilesViewController.swift; sourceTree = "<group>"; };
-		90EEBDEA2227240C003866BC /* ExamplePopoverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ExamplePopoverViewController.swift; path = ../../../../../github/ColorMatchTabs/Example/Example/Classes/ViewControllers/ExamplePopoverViewController.swift; sourceTree = "<group>"; };
+		90EEBDEC22272529003866BC /* ExamplePopoverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExamplePopoverViewController.swift; sourceTree = "<group>"; };
 		E914FA3C2F57F5B1A505C4E7 /* Pods-Golf.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Golf.debug.xcconfig"; path = "Target Support Files/Pods-Golf/Pods-Golf.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -148,7 +148,7 @@
 		903535362226F22700469D41 /* ColorMatchTabs */ = {
 			isa = PBXGroup;
 			children = (
-				90EEBDEA2227240C003866BC /* ExamplePopoverViewController.swift */,
+				90EEBDEC22272529003866BC /* ExamplePopoverViewController.swift */,
 				9035352C2226E5F100469D41 /* ControllersProvider.swift */,
 				9035352D2226E5F100469D41 /* TabSwitcherItemsProvider.swift */,
 				9035352A2226E5E900469D41 /* TabItem.swift */,
@@ -307,7 +307,7 @@
 				9035352E2226E5F100469D41 /* ControllersProvider.swift in Sources */,
 				903535292226E5E100469D41 /* ExampleTableViewCell.swift in Sources */,
 				903535252226E5D900469D41 /* StubContentViewController.swift in Sources */,
-				90EEBDEB2227240C003866BC /* ExamplePopoverViewController.swift in Sources */,
+				90EEBDED22272529003866BC /* ExamplePopoverViewController.swift in Sources */,
 				9035352B2226E5E900469D41 /* TabItem.swift in Sources */,
 				903535202226E54100469D41 /* HomeViewController.swift in Sources */,
 			);

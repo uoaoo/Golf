@@ -22,11 +22,25 @@ class ExamplePopoverViewController: PopoverViewController {
         imageView.contentMode = .scaleAspectFit
         contentView.addSubview(imageView)
         
+        
+        
         let padding: CGFloat = 20
         imageView.translatesAutoresizingMaskIntoConstraints = false
+        
         imageView.leadingAnchor.constraint(equalTo: contentView.leadingAnchor, constant: padding).isActive = true
         imageView.trailingAnchor.constraint(equalTo: contentView.trailingAnchor, constant: -padding).isActive = true
         imageView.centerXAnchor.constraint(equalTo: contentView.centerXAnchor).isActive = true
         imageView.centerYAnchor.constraint(equalTo: contentView.centerYAnchor).isActive = true
+        
+        
+        
+        
     }
+    
+
+ 
+    
+
+    
+    
 }
